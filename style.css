@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box0;
+}
+
+body{
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
+    /*background-color: rgba(247, 209, 232, 0.925);*/
+    background-image: url("imagen/Diseño\ sin\ título\ \(1\).png");
+    justify-content: center;
+    background-repeat: repeat-y;
+    /*background-size: auto 100px 100px 150px;*/
+    height: 100vh;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    color: #fdebe7;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contenedor{
+    /*max-width: 80%;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    /**/
+    max-width: 100%;
+  width: 330px;
+  height: auto;
+  margin: 30px 10px auto 3px;
+  padding: 25px;
+  border: 2px solid white;
+  background-color: #232224e3;
+  border-radius: 15px;
+  text-align: center;
+  
+}
+
+.encabezado{
+    padding: 10px 0 5px 0;
+}
+.agregar{
+    background-color: rgb(121, 118, 119);
+    border-radius: 15px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+}
+.agregar input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    background-color: beige;
+    padding-left: 10px;
+}
+.agregar input::placeholder{
+    font-size: 1.1ren;
+    color: rgb(13, 14, 14);
+    font-size: 15px;
+}
+.agregar i{
+    font-size: 45px;
+    color: azure;
+}
+.agregar i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/*seccion de tareas*/
+.tareas h2{
+    margin-bottom: 20px;
+    font-size: 23px;
+    align-items: center;
+    /**/
+    margin-top: 10px;
+}
+.tareas li{
+    background-color: beige;
+    border-radius: 15px;
+    padding: 10px;
+    color: black;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tareas{
+    font-size: 25px;
+}
+.tareas p{
+    font-weight: 400;
+}
+.tareas i:hover{
+    color: rgb(22, 22, 24);
+    cursor: pointer;
+}
+.tachado{
+    text-decoration: line-through;
+    color: rgb(18, 18, 19);
+}
